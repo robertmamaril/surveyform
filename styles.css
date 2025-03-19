@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b7cfe9; /* Soft light blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgb(231, 229, 229);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    border-left: 5px solid #4CAF50; /* Green left border for emphasis */
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #4CAF50; /* Green for title */
+}
+
+#description {
+    text-align: center;
+    color: #777; /* Lighter gray for description */
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #333; /* Dark gray for labels */
+}
+
+input, select, textarea {
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 1em;
+    border: 1px solid #ccc; /* Light gray border */
+    transition: border-color 0.3s ease-in-out;
+}
+
+/* Color for input fields based on type */
+input[type="text"], input[type="email"], input[type="number"] {
+    background-color: #f9f9f9; /* Light gray background for input fields */
+}
+
+select {
+    background-color: #eaf5e2; /* Light green background for dropdown */
+}
+
+textarea {
+    background-color: #f5e4e7; /* Light pink background for comments */
+}
+
+/* Focus effect */
+input:focus, select:focus, textarea:focus {
+    border-color: #4CAF50; /* Green border on focus */
+    outline: none;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+/* Fieldset (grouped elements like radio buttons & checkboxes) */
+fieldset {
+    border: 2px solid #4CAF50; /* Green border for fieldsets */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+legend {
+    color: #4CAF50; /* Green for legend text */
+    font-size: 1.2em;
+}
+
+/* Buttons */
+button {
+    padding: 12px;
+    background-color: #4CAF50; /* Green background for submit button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Hover effects for input and select elements */
+input:hover, select:hover, textarea:hover {
+    border-color: #4CAF50; /* Highlight border on hover */
+}
